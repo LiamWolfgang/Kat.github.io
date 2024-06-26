@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorPrimero:#006666;
+    --colorSegundo:#008584;
+    --colorTercero:#CCCCCC;
+    --colorCuarto:#E9E9E9;
+    --colorQuinto:#F5F5F5;
+    --colorSexto:#000000;
+    --colorSeptimo:#ffffff;
+    --headerHeight: 104px;
+    --fontPrimera:"Merienda", cursive;
+}
+
+
+body{
+    overflow-x: hidden;
+}

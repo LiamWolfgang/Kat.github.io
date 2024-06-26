@@ -1,0 +1,114 @@
+@import url('settings.css');
+
+#EventoSection1__eventoForm fieldset {
+    border: none; /* Elimina el borde por defecto */ /* Ajusta el tamaño al contenido */ /* Elimina el padding por defecto */
+    margin: 0; /* Ajusta el margen según necesites */
+}
+
+
+h1{
+    text-align: center;
+    margin:0;
+    color: var(--colorSexto);
+    font-size: 2.3em;
+    font-weight: 800;
+}
+#EventoSection1__eventoForm{
+    height:50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+#EventoSection1__eventoForm input[type="text"],input[type="date"],input[type="time"]{
+    width: 20rem;
+    height: 3.5rem;
+    border-radius:0.8rem;
+    padding:1rem;
+    text-align: center;
+    border:none;
+    font-size: 1em;
+    font-weight:500;
+    font-family: var(--fontPrimera);
+    background-color: var(--colorPrimero);
+    color: var(--colorSeptimo);
+}
+
+
+
+#EventoSection1__eventoForm input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus{
+   outline: none;
+   box-shadow: 0 0 6px 2px var(--colorSexto);
+}
+.eventoForm__cajaForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.eventoForm__cajaForm>label{
+    color: var(--colorSexto);
+    font-family: var(--fontPrimera);
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.check{
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check>input{
+    width: 1rem;
+    height: 1rem;
+}
+.cajaform2__cajaCheck{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+    
+}
+.cajaform2__cajaCheck label{
+    color: var(--colorSexto);
+    font-weight: 600;
+    font-size: 1em;
+    font-family: var(--fontPrimera);
+
+}
+.eventoForm__cajaForm2{
+    width: 10rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color:var(--colorSegundo);
+}
+.eventoForm__cajaForm2>label{
+    color: var(--colorCuarto);
+    font-family: var(--fontPrimera);
+    font-weight: 400;
+    font-size: 1.5em;
+}
+#eventoForm-submit{
+    color: var(--colorSeptimo);
+    font-weight: 400;
+    border:none;
+    background-color: var(--colorPrimero);
+    border-radius:0.8rem;
+    font-family: var(--fontPrimera);
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}

@@ -1,0 +1,145 @@
+@import url('settings.css');
+
+.header__bann{
+    background-color: var(--colorPrimero);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 3rem;
+    overflow-x: hidden;
+}
+.bann__topAdd{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    position: relative;
+  
+}
+#topAdd-h1, .topAdd-h3{
+    color:var(--colorSeptimo);
+    font-family: var(--fontPrimera);
+    font-weight: 300;
+    font-size: 1em;
+    white-space: nowrap;
+    will-change: transform; 
+}
+
+.header__nav {
+    display: flex;
+    height: 3.5rem;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    position: relative;
+    background-color: var(--colorSeptimo); 
+    
+}
+.fas.fa-user{
+    font-size: 3em;
+    color: var(--colorPrimero);
+}
+#user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:15rem;
+}
+.nombreUsuario{
+    color: var(--colorPrimero);
+    font-family: var(--fontPrimera);
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#burger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+    z-index: 3;
+}
+
+.burger {
+    width: 38px;
+    height: 3.2px;
+    background-color: var(--colorPrimero);
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+
+.burger::before,
+.burger::after {
+    content: '';
+    width: 38px;
+    height: 3.2px;
+    background-color: var(--colorPrimero);
+    display: block;
+    position: absolute;
+    z-index: 2;
+    
+}
+.burger.is-open,
+.burger.is-open::before,
+.burger.is-open::after {
+    background-color: var(--colorCuarto);
+    
+}
+
+.burger::before {
+    top: -8px;
+}
+
+.burger::after {
+    bottom: -8px;
+}
+
+.nav__boxMenu{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - var(--headerHeight));
+    background-color: var(--colorSegundo); 
+    z-index: 1;
+    display: none;
+}
+.nav__boxMenu>ul{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav__boxMenu>ul>li{
+    list-style: none;
+    
+    background-color: var(--colorCuarto);
+    flex-basis: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__boxMenu>ul>li>a{
+    color: var(--colorSegundo);
+    font-weight: 800;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-family: var(--fontPrimera);
+}
+
+.nav__boxLogo{
+    width: 7rem;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxLogo-logo{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

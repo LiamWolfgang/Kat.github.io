@@ -1,0 +1,133 @@
+@import url('settings.css');
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorTercero);
+}
+.menu-titulo{
+    font-family: var(--fontPrimera);
+    color: var(--colorSexto);
+}
+.section1__tipo{
+    margin: 0.7rem;
+}
+.tipo-titulo{
+    font-family: var(--fontPrimera);
+    color: var(--colorSexto);
+
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1__card {
+   background-color: var(--colorTercero);
+   display: flex;
+   width: 75vw;
+   flex-direction: column;
+   height: 30rem;
+   background-color: var(--colorSegundo);
+   border-radius:25px;
+   box-shadow: 0 0 10px 3px var(--colorSexto);
+   transition: box-shadow 0.5s;
+   overflow: hidden;
+}
+.section1__card:hover{
+    box-shadow: none;
+}
+
+.section1__card:hover .card-image{
+    scale: 1.1;
+}
+.card-image{
+    transition: scale 0.5s;
+    width: 100%;
+    height: 40%;
+    
+}
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius:25px 25px 0 0;
+}
+
+.card__detalles{
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.detalles-titulo{
+    font-family: var(--fontPrimera);
+    color: var(--colorSexto);
+}
+.card__añadir{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    border-radius: 0 0 25px 25px ;
+    background-color: var(--colorPrimero);
+}
+.añadir__contador{
+    display: flex;
+    align-items: stretch;
+    width: 5rem;
+}
+
+.contador-input::-webkit-inner-spin-button,
+.contador-input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.contador-input{
+    font-family: var(--fontPrimera);
+    width: 60%; 
+    border: none;
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+.contador-decrementar,
+.contador-incrementar{
+    font-family: var(--fontPrimera);
+    border: none;
+    display: flex;
+    width: 30%; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--colorTercero);
+    user-select: none; /* Evita que el texto de los botones sea seleccionable */
+}
+.añadir-precio{
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    background-color: var(--colorTercero);
+}
+.precioCard{
+    font-family: var(--fontPrimera);
+    color: var(--colorSexto);
+}
+  .añadir-btn{
+    font-family: var(--fontPrimera);
+    display: flex;
+    width: 5rem;
+    background-color: var(--colorTercero);
+    border: none;
+  }
+  
+  /* Estilos adicionales para posicionar y estilizar tus botones/flechas */
+
+
+

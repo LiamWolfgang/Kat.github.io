@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Evento</title>
+    <link rel="stylesheet" href="./src/css/evento.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/settings.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__bann">
+            <div class="bann__topAdd">
+                <h1 id="topAdd-h1">Por un Catering más sostenible, más saludable</h1>
+                <h3 class="topAdd-h3">. Te asesoramos, Llamanos: +34145965324</h3>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="nav__boxLogo">
+                <img class="boxLogo-logo" src="src/img/generico/KatLogo.webp" alt="">
+             </div>
+            <div class="nav__boxLogoMenu">
+                <div id="burger">
+                    <span class="burger"></span>
+                </div>
+                <nav class="nav__boxMenu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html" id="servicios">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+             </div>
+         </div>
+    </header>
+
+
+
+    <main>
+        <section id="EventoSection1">
+            <div>
+                <h1>Detalles del Evento</h1>
+            </div>
+            <form id="EventoSection1__eventoForm">
+                <fieldset class="eventoForm__cajaForm">
+                    <label for="lugar">Lugar:</label>
+                    <input type="text" id="lugar" name="lugar" required><br><br>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required><br><br>
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" name="hora" required><br><br>
+                </fieldset>
+                
+                <fieldset class="eventoForm__cajaForm2">
+                    <label for="servicios">Servicios:</label><br>
+                    <div class="cajaform2__cajaCheck">
+                        <input type="checkbox" id="arreglo" name="servicios" value="arreglo">
+                        <label for="arreglo">Arreglo</label><br>
+                    </div>
+                    <div class="cajaform2__cajaCheck">
+                        <input type="checkbox" id="comida" name="servicios" checked disabled="comida">
+                        <label for="comida">Comida</label><br><br>
+                    </div>
+                </fieldset>
+                
+                <button type="submit" id="eventoForm-submit">Continuar</button>
+            </form>
+        </section>
+        <section id="EventoSection2">
+            <div id="EventoSection2__menu" style="display: none;">
+                <h2>Selecciona tus platillos</h2>
+                <!-- Cards de platillos aquí -->
+                <button id="menu__pagar">Pagar</button>
+            </div>
+        </section>
+
+        
+    </main>
+
+   
+    
+    
+    <script defer src="src/js/jquery-3.7.1.min.js"></script>
+    <script defer src="src/js/header.js"></script>
+</body>
+</html>
