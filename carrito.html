@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/settings.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="src/css/carrito.css">
+   
+</head>
+<body>
+    <header class="header">
+        <div class="header__bann">
+            <div class="bann__topAdd">
+                <h1 id="topAdd-h1">Por un Catering más sostenible, más saludable</h1>
+                <h3 class="topAdd-h3">. Te asesoramos, Llamanos: +34145965324</h3>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="nav__boxLogo">
+                <img class="boxLogo-logo" src="src/img/generico/KatLogo.webp" alt="">
+             </div>
+            <div class="nav__boxLogoMenu">
+                <div id="burger">
+                    <span class="burger"></span>
+                </div>
+                <nav class="nav__boxMenu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="servicios.html" id="servicios">Servicios</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+             </div>
+         </div>
+    </header>
+    <main>
+        <div class="encabezado">
+            <h1 class="encabezado-titulo">Cesta de Compras</h1>
+        </div>
+        <section class="cesta">
+            <div class="cesta__datosServicio">
+                <div class="datosServicio__servicio">
+                    <h2 class="servicio-titulo">Servicio:</h2>
+                    <p id="cesta-servicio">Evento de Bodas</p>
+                </div>
+                <div class="datosServicio__lugar">
+                    <h2 class="lugar-titulo">Lugar:</h2>
+                    <p id="cesta-lugar">Illumbide 20140, kaletxiki12 2b</p>
+                </div>
+                <div class="datosServicio__fecha">
+                    <h2 class="fecha-titulo">Fecha:</h2>
+                    <p id="cesta-fecha">20-07-2024</p>
+                </div>
+                <div class="datosServicio__hora">
+                    <h2 class="hora-titulo">Hora:</h2>
+                    <p id="cesta-hora">12:00</p>
+                </div>
+                <div class="datosServicio__arreglo">
+                    <h2 class="arreglo-titulo">Arreglo:</h2>
+                    <p id="cesta-arreglo">$300</p>
+                </div>
+            </div>
+
+            <div class="cesta__detalles">
+                
+                <h2 class="detalles-titulo">Productos</h2>
+                <div id="producto-N001" class="detalles__container">
+                    <div class="container-img"><img src="src/img/generico/image-8.webp" alt=""></div>
+                    <div class="container__boxListado">
+                        <div class="boxListado__listado--1">
+                            <h3 class="listado-producto">Producto: </h3>
+                            <h3 class="producto-nombre">salchipapa</h3>
+                        </div>
+                        <div class="boxListado__listado--2">
+                            <p class="listado-cantidad">Cantidad: </p>
+                            <h3 class="producto-cantidad">300</h3>
+                        </div>
+                        <div class="boxListado__listado--3">
+                            <p class="listado-subTotal">Sub-Total: </p>
+                            <h3 class="producto-subTotal">$ 3,000</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="producto-N001" class="detalles__container">
+                    <div class="container-img"><img src="src/img/generico/image-8.webp" alt=""></div>
+                    <div class="container__boxListado">
+                        <div class="boxListado__listado--1">
+                            <h3 class="listado-producto">Producto: </h3>
+                            <h3 class="producto-nombre">salchipapa</h3>
+                        </div>
+                        <div class="boxListado__listado--2">
+                            <p class="listado-cantidad">Cantidad: </p>
+                            <h3 class="producto-cantidad">300</h3>
+                        </div>
+                        <div class="boxListado__listado--3">
+                            <p class="listado-subTotal">Sub-Total: </p>
+                            <h3 class="producto-subTotal">$ 3,000</h3>
+                        </div>
+                    </div>
+                </div>
+                <div id="producto-N001" class="detalles__container">
+                    <div class="container-img"><img src="src/img/generico/image-8.webp" alt=""></div>
+                    <div class="container__boxListado">
+                        <div class="boxListado__listado--1">
+                            <h3 class="listado-producto">Producto: </h3>
+                            <h3 class="producto-nombre">salchipapa</h3>
+                        </div>
+                        <div class="boxListado__listado--2">
+                            <p class="listado-cantidad">Cantidad: </p>
+                            <h3 class="producto-cantidad">300</h3>
+                        </div>
+                        <div class="boxListado__listado--3">
+                            <p class="listado-subTotal">Sub-Total: </p>
+                            <h3 class="producto-subTotal">$ 3,000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pago">
+            <div class="pago__total">
+                <h3 class="total-suma"> Total: <span class="suma-total">$ 10,000</span></h3>
+            </div>
+            <button class="pago-btn">Enviar</button>
+        </section>
+    </main>
+
+    <script defer src="src/js/jquery-3.7.1.min.js"></script>
+    <script defer src="src/js/header.js"></script>
+</body>
+</html>

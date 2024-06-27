@@ -35,21 +35,21 @@
     background-color: var(--colorSeptimo); 
     
 }
-.fas.fa-user{
-    font-size: 3em;
-    color: var(--colorPrimero);
-}
-#user{
+
+.containerNavShop{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width:15rem;
+    width:7rem;   
 }
-.nombreUsuario{
-    color: var(--colorPrimero);
-    font-family: var(--fontPrimera);
-    font-size: 1.2em;
-    font-weight: 800;
+.carritoIcono{
+    width: 2rem;
+    fill: var(--colorPrimero);
+    cursor: pointer;
+}
+.carritoIcono img{
+    width: 100%;
+    height: 100%;
 }
 
 #burger {

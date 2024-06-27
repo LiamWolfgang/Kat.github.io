@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detalles del Evento</title>
+    <title>Enviar Datos</title>
     <link rel="stylesheet" href="src/css/normalize.css">
-    <link rel="stylesheet" href="./src/css/evento.css">
-    <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/settings.css">
+    <link rel="stylesheet" href="src/css/header.css">
+    <link rel="stylesheet" href="./src/css/envio.css">
 </head>
 <body>
     <header class="header">
@@ -39,33 +39,24 @@
 
 
     <main>
-        <section id="EventoSection1">
+        <section id="envioSection1">
             <div>
-                <h1>Detalles del Evento</h1>
+                <h1>Datos de Contacto</h1>
+                <p>Te enviaremos un mensaje por Whatsapp para que puedas completar tu pago</p>
             </div>
-            <form id="EventoSection1__eventoForm">
-                <fieldset class="eventoForm__cajaForm">
-                    <label for="lugar">Lugar:</label>
-                    <input type="text" id="lugar" name="lugar" required><br><br>
-                    <label for="fecha">Fecha:</label>
-                    <input type="date" id="fecha" name="fecha" required><br><br>
-                    <label for="hora">Hora:</label>
-                    <input type="time" id="hora" name="hora" required><br><br>
+            <form id="envioSection1__envioForm">
+                <fieldset class="envioForm__cajaForm">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                    <label for="fecha">Teléfono</label>
+                    <input type="number" id="fecha" name="fecha" required><br><br>
+                    <label for="hora">Email</label>
+                    <input type="email" id="hora" name="hora" required><br><br>
                 </fieldset>
                 
-                <fieldset class="eventoForm__cajaForm2">
-                    <label for="servicios">Servicios:</label><br>
-                    <div class="cajaform2__cajaCheck">
-                        <input type="checkbox" id="arreglo" name="servicios" value="arreglo">
-                        <label for="arreglo">Arreglo</label><br>
-                    </div>
-                    <div class="cajaform2__cajaCheck">
-                        <input type="checkbox" id="comida" name="servicios" checked disabled="comida">
-                        <label for="comida">Comida</label><br><br>
-                    </div>
-                </fieldset>
                 
-                <button type="submit" id="eventoForm-submit">Continuar</button>
+                
+                <button type="submit" id="envioForm-submit">Continuar</button>
             </form>
         </section>
         <section id="EventoSection2">
@@ -79,9 +70,10 @@
         
     </main>
 
-   
-    
-    
+
+
+
+
     <script defer src="src/js/jquery-3.7.1.min.js"></script>
     <script defer src="src/js/header.js"></script>
 </body>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link rel="stylesheet" href="src/css/normalize.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/menu.css">
     <link rel="stylesheet" href="src/css/settings.css">
@@ -18,7 +19,7 @@
         </div>
         <div class="header__nav">
             <div class="nav__boxLogo">
-                <a href="index.html"><img class="boxLogo-logo" src="src/img/generico/KatLogo.webp" alt=""></a>
+                <img class="boxLogo-logo" src="src/img/generico/KatLogo.webp" alt="">
              </div>
             <div class="nav__boxLogoMenu">
                 <div id="burger">
@@ -43,29 +44,127 @@
             <div class="section1__tipo">
                 <h2 class="tipo-titulo">Platillos</h2>
             </div>
-            <div>
+            <div class="listaMenu">
                 <div class="section1__card">
                     <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
                     
                     <div class="card__detalles">
                         <div class="detalles__encabezado">
-                            <h2 class="encabezado-titulo">SOSTENIBLE</h2>
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
                         </div>
                         <div  class="detalles__text">
-                            <p class="text-parrafo">Nos preocupamos por la sostenibilidad y el cuidado del medio ambiente. 
-                                Implementamos prácticas de reciclaje y reducción de residuos en todos nuestros eventos. 
-                                Además, trabajamos con proveedores locales y utilizamos ingredientes frescos y de temporada, 
-                                promoviendo así la agricultura sostenible. 
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
                         </div>
                     </div>
                     <div class="card__añadir">
                         <div class="añadir__contador">
                             <span class="contador-decrementar">-</span>
-                            <input class="contador-input" value="1" type="number"/>
+                            <input class="contador-input" value="1"  type="number"/>
                             <span class="contador-incrementar">+</span>
                         </div>
 
-                        <p class="añadir-precio">$ <span class="precioCard" id="precio-N001">2</span></p>
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section1__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section1__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section1__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section1__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
                         
                         <button class="añadir-btn">Añadir al carrito</button>
                     </div>
@@ -73,6 +172,534 @@
                 </div>
             </div>
         </section>
+        <section class="section2">
+            <div class="section2__tipo">
+                <h2 class="tipo-titulo">Pinxos</h2>
+            </div>
+            <div class="listaMenu">
+                <div class="section2__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section2__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section2__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section2__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section2__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="section3">
+            <div class="section3__tipo">
+                <h2 class="tipo-titulo">Postres</h2>
+            </div>
+            <div class="listaMenu">
+                <div class="section3__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section3__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section3__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section3__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section3__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="section4">
+            <div class="section4__tipo">
+                <h2 class="tipo-titulo">Postres</h2>
+            </div>
+            <div class="listaMenu">
+                <div class="section4__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section4__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section4__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section4__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section4__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        <section class="section5">
+            <div class="section5__tipo">
+                <h2 class="tipo-titulo">Bebidas</h2>
+            </div>
+            <div class="listaMenu">
+                <div class="section5__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section5__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section5__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                </div>
+                <div class="section5__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+                <div class="section5__card">
+                    <div class="card-image"><img src="src/img/generico/image-6.webp" alt="Image 1"></div>
+                    
+                    <div class="card__detalles">
+                        <div class="detalles__encabezado">
+                            <h2 class="encabezado-titulo" id="titulo-N001">Ensalada de Quinua con Verduras Asadas</h2>
+                        </div>
+                        <div  class="detalles__text">
+                            <p class="text-parrafo" id="ingrediente-N001">Ingredientes: Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.
+                                <br><br><span class="descripcion" id="descripcion-N001">Descripción: Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.</span> 
+                        </div>
+                    </div>
+                    <div class="card__añadir">
+                        <div class="añadir__contador">
+                            <span class="contador-decrementar">-</span>
+                            <input class="contador-input" value="1"  type="number"/>
+                            <span class="contador-incrementar">+</span>
+                        </div>
+
+                        <p class="añadir-precio">€<span class="precioCard" id="precio-N001">10</span></p>
+                        
+                        <button class="añadir-btn">Añadir al carrito</button>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+        
     </main>
 
 
