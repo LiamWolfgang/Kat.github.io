@@ -1,0 +1,170 @@
+{
+    "platillos": [
+        {
+            "id": "P001",
+            "nombre": "Ensalada de Quinua con Verduras Asadas",
+            "ingredientes": "Quinua, pimientos, calabacín, berenjena, cebolla roja, tomates cherry, aceite de oliva, jugo de limón, sal, y pimienta.",
+            "descripcion": "Quinua mezclada con una variedad de verduras asadas y aderezada con aceite de oliva y jugo de limón.",
+            "precio": 12.50,
+            "img": "../../img/menu/platillos/P001.webp"
+        },
+        {
+            "id": "P002",
+            "nombre": "Tacos de Coliflor",
+            "ingredientes": "Coliflor, tortillas de maíz, aguacate, cebolla morada, cilantro, jugo de limón, salsa picante.",
+            "descripcion": "Tacos hechos con coliflor sazonada, servidos con aguacate y una salsa fresca de cebolla y cilantro.",
+            "precio": 10.00,
+            "img": "../../img/menu/platillos/P002.webp"
+        },
+        {
+            "id": "P003",
+            "nombre": "Falafel con Salsa Tahini",
+            "ingredientes": "Garbanzos, perejil, cilantro, ajo, comino, harina de garbanzo, aceite de oliva, tahini, jugo de limón.",
+            "descripcion": "Bolitas de falafel crujientes servidas con una salsa tahini cremosa.",
+            "precio": 9.00,
+            "img": "../../img/menu/platillos/P003.webp"
+        },
+        {
+            "id": "P004",
+            "nombre": "Pasta Primavera",
+            "ingredientes": "Pasta (puede ser de trigo, integral o sin gluten), pimientos, brócoli, guisantes, tomates cherry, albahaca, aceite de oliva, ajo.",
+            "descripcion": "Pasta acompañada de una variedad de verduras salteadas con ajo y aceite de oliva.",
+            "precio": 14.00,
+            "img": "../../img/menu/platillos/P004.webp"
+        },
+        {
+            "id": "P005",
+            "nombre": "Curry de Garbanzos y Espinacas",
+            "ingredientes": "Garbanzos, espinacas, leche de coco, pasta de curry, cebolla, ajo, jengibre, tomate, cilantro.",
+            "descripcion": "Un curry cremoso de garbanzos y espinacas con especias y leche de coco, servido con arroz o pan naan.",
+            "precio": 13.50,
+            "img": "../../img/menu/platillos/P005.webp"
+        }
+    ],
+    "pinchos_vascos": [
+        {
+            "id": "PV001",
+            "nombre": "Gilda",
+            "ingredientes": "Aceitunas verdes, anchoas, guindillas en vinagre.",
+            "descripcion": "Un clásico pincho vasco con aceitunas, anchoas y guindillas ensartadas en un palillo.",
+            "precio": 2.50,
+            "img": "../../img/menu/pintxos/PV001.webp"
+        },
+        {
+            "id": "PV002",
+            "nombre": "Tortilla de Patatas",
+            "ingredientes": "Patatas, cebolla, huevos, aceite de oliva, sal.",
+            "descripcion": "Tradicional tortilla española cortada en pequeños cubos y servida en un pincho.",
+            "precio": 3.00,
+            "img": "../../img/menu/pintxos/PV002.webp"
+        },
+        {
+            "id": "PV003",
+            "nombre": "Pintxo de Piquillos Rellenos",
+            "ingredientes": "Pimientos del piquillo, queso de cabra, nueces, miel.",
+            "descripcion": "Pimientos del piquillo rellenos de una mezcla de queso de cabra y nueces, con un toque de miel.",
+            "precio": 3.50,
+            "img": "../../img/menu/pintxos/PV003.webp"
+        },
+        {
+            "id": "PV004",
+            "nombre": "Bacalao al Pil-Pil",
+            "ingredientes": "Bacalao desalado, ajo, aceite de oliva, guindilla.",
+            "descripcion": "Bacalao cocinado en aceite de oliva con ajo y guindilla, servido en pequeñas porciones.",
+            "precio": 4.00,
+            "img": "../../img/menu/pintxos/PV004.webp"
+        },
+        {
+            "id": "PV005",
+            "nombre": "Pintxo de Setas con Jamón",
+            "ingredientes": "Setas, jamón serrano, ajo, aceite de oliva, perejil.",
+            "descripcion": "Setas salteadas con ajo y perejil, acompañadas de jamón serrano.",
+            "precio": 3.50,
+            "img": "../../img/menu/pintxos/PV005.webp"
+        }
+    ],
+    "postres": [
+        {
+            "id": "PO001",
+            "nombre": "Tarta de Chocolate Vegana",
+            "ingredientes": "Chocolate negro, leche de almendras, harina, azúcar de coco, aceite de coco.",
+            "descripcion": "Tarta rica y húmeda hecha con ingredientes veganos.",
+            "precio":7.00,
+            "img": "../../img/menu/postres/PO001.webp"
+        },
+        {
+            "id": "PO002",
+            "nombre": "Cheesecake de Frutos Rojos",
+            "ingredientes": "Queso crema, azúcar, galletas digestivas, mantequilla, frutos rojos, gelatina.",
+            "descripcion": "Suave cheesecake con una base de galletas y cubierta de frutos rojos.",
+            "precio":9.00,
+            "img": "../../img/menu/postres/PO002.webp"
+        },
+        {
+            "id": "PO003",
+            "nombre": "Crema Catalana",
+            "ingredientes": "Leche, nata, yemas de huevo, azúcar, canela, piel de limón.",
+            "descripcion": "Postre tradicional catalán similar a la crème brûlée con una capa de caramelo crujiente.",
+            "precio":4.00,
+            "img": "../../img/menu/postres/PO003.webp"
+        },
+        {
+            "id": "PO004",
+            "nombre": "Tiramisú",
+            "ingredientes": "Queso mascarpone, café, bizcochos de soletilla, cacao en polvo, azúcar, licor.",
+            "descripcion": "Postre italiano en capas con bizcochos empapados en café y una mezcla cremosa de mascarpone.",
+            "precio":6.50,
+            "img": "../../img/menu/postres/PO004.webp"
+        },
+        {
+            "id": "PO005",
+            "nombre": "Sorbete de Mango",
+            "ingredientes": "Mangos, azúcar, jugo de limón.",
+            "descripcion": "Refrescante sorbete de mango natural.",
+            "precio":5.00,
+            "img": "../../img/menu/postres/PO005.webp"
+        }
+    ],
+    "bebidas": [
+        {
+            "id": "B001",
+            "nombre": "Sangría",
+            "ingredientes": "Vino tinto, brandy, frutas frescas (naranjas, limones, manzanas), azúcar, refresco de limón o soda.",
+            "descripcion": "Bebida tradicional española con vino tinto y frutas.",
+            "precio": 6.00,
+            "img": "../../img/menu/bebidas/B001.webp"
+        },
+        {
+            "id": "B002",
+            "nombre": "Agua de Valencia",
+            "ingredientes": "Cava o champaña, jugo de naranja, ginebra, vodka, azúcar.",
+            "descripcion": "Cóctel a base de cava y jugo de naranja con un toque de licor.",
+            "precio": 8.00,
+            "img": "../../img/menu/bebidas/B002.webp"
+        },
+        {
+            "id": "B003",
+            "nombre": "Tinto de Verano",
+            "ingredientes": "Vino tinto, gaseosa de limón.",
+            "descripcion": "Refrescante mezcla de vino tinto y gaseosa de limón, similar a la sangría pero más simple.",
+            "precio": 4.50,
+            "img": "../../img/menu/bebidas/B003.webp"
+        },
+        {
+            "id": "B004",
+            "nombre": "Rebujito",
+            "ingredientes": "Fino (vino de Jerez), gaseosa de lima-limón, hielo, hierbabuena.",
+            "descripcion": "Bebida refrescante con fino y gaseosa de lima-limón.",
+            "precio": 5.50,
+            "img": "../../img/menu/bebidas/B004.webp"
+        },
+        {
+            "id": "B005",
+            "nombre": "Mojito",
+            "ingredientes": "Ron blanco, azúcar, lima, menta, agua con gas.",
+            "descripcion": "Cóctel cubano con ron, menta, y un toque de lima.",
+            "precio": 7.00,
+            "img": "../../img/menu/bebidas/B005.webp"
+        }
+    ]
+}

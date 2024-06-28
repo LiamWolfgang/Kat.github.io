@@ -184,7 +184,8 @@
     transition: background-color 0.3s ease; 
 }
 .section-4__btn:hover {
-    background-color: var(--colorSexto); 
+    background-color: var(--colorPrimero); 
+    opacity: 0.6;
 }
 .section-4__btn a{
     color: var(--colorSeptimo); 
