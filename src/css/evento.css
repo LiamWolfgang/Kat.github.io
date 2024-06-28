@@ -1,16 +1,17 @@
 @import url('settings.css');
 
 #EventoSection1__eventoForm fieldset {
-    border: none; /* Elimina el borde por defecto */ /* Ajusta el tamaño al contenido */ /* Elimina el padding por defecto */
-    margin: 0; /* Ajusta el margen según necesites */
+    border: none;
+    margin: 0; 
 }
 
 
 h1{
     text-align: center;
-    margin:0;
     color: var(--colorSexto);
-    font-size: 2.3em;
+    font-family: var(--fontPrimera);
+    font-size: 2em;
+    margin-top:1rem;
     font-weight: 800;
 }
 #EventoSection1__eventoForm{

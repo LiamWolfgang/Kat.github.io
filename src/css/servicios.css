@@ -7,6 +7,11 @@
     justify-content: space-around;
     align-items: center;
 }
+h1{
+    font-family: var(--fontPrimera);
+    color: var(--colorSexto);
+    font-size: 2.5em;
+}
 
 .SectionServicios .card {
     position: relative;
@@ -14,7 +19,14 @@
     border: none;
     border-radius: 25px;
 }
-
+.SectionServicios .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.card__panel{
+    border-radius: 0 0 25px 25px;
+}
 .SectionServicios .card button {
     display: inline-block;
     padding: 0.60rem;

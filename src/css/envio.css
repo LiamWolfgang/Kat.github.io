@@ -1,20 +1,35 @@
 @import url('settings.css');
 
 #envioSection1__envioForm fieldset {
-    border: none; /* Elimina el borde por defecto */ /* Ajusta el tamaño al contenido */ /* Elimina el padding por defecto */
-    margin: 0; /* Ajusta el margen según necesites */
+    border: none;
+    margin: 0;
 }
 
 
-h1{
+.envioSection1__encabezado{
+    display: flex;
+    flex-direction:column;
+    height: 8rem;
+    justify-content: space-evenly;
+    border-bottom: 2px solid var(--colorPrimero);
+}
+.encabezado-titulo{
     text-align: center;
-    margin:0;
     color: var(--colorSexto);
+    font-family: var(--fontPrimera);
     font-size: 2.3em;
     font-weight: 800;
 }
+.encabezado-mensaje{
+    text-align: center;
+    font-family:var(--fontPrimera);
+    color: var(--colorSexto);
+    font-size: 1em;
+    font-weight: 400;
+
+}
 #envioSection1__envioForm{
-    height:50rem;
+    height:29rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,62 +60,15 @@ input[type="time"]:focus{
    outline: none;
    box-shadow: 0 0 6px 2px var(--colorSexto);
 }
-.envioForm__cajaForm{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 0.5rem;
-}
-.envioForm__cajaForm>label{
+
+#envioSection1__envioForm>label{
     color: var(--colorSexto);
     font-family: var(--fontPrimera);
     font-weight: 800;
     font-size: 1.2em;
 }
 
-.check{
-    width: 7rem;
-    height: 2rem;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.check>input{
-    width: 1rem;
-    height: 1rem;
-}
-.cajaform2__cajaCheck{
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 6rem;
-    
-}
-.cajaform2__cajaCheck label{
-    color: var(--colorSexto);
-    font-weight: 600;
-    font-size: 1em;
-    font-family: var(--fontPrimera);
-
-}
-.envioForm__cajaForm2{
-    width: 10rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    background-color:var(--colorSegundo);
-}
-.envioForm__cajaForm2>label{
-    color: var(--colorCuarto);
-    font-family: var(--fontPrimera);
-    font-weight: 400;
-    font-size: 1.5em;
-}
 #envioForm-submit{
     color: var(--colorSeptimo);
     font-weight: 400;
