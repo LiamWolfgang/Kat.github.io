@@ -1,31 +1,33 @@
 $(function(){
     let datosServicio = JSON.parse(localStorage.getItem('datosServicio'));
     localStorage.removeItem('datosServicio');
-    $('#eventoForm').submit(function(event) {
+
+    $('#eventoForm-submit').click(function(event) {
         event.preventDefault();
 
         let lugar = $('#lugar').val();
-        let fecha = $('#lugar').val();
-        let hora = $('#lugar').val();
+        let fecha = $('#fecha').val();
+        let hora = $('#hora').val();
         let comida = $('#comida').val();
         let arreglo = $('#arreglo').val();
 
-        if(arreglo===undefined){
+        if (arreglo === '') {
             arreglo = 0;
-        }else{
+        } else {
             arreglo = 300;
+        }
+
+        datosServicio = {
+            lugar: lugar,
+            fecha: fecha,
+            hora: hora,
+            comida: comida,
+            arreglo: arreglo
         };
 
-        datosServicio.lugar = lugar;
-        datosServicio.fecha = fecha;
-        datosServicio.hora = hora;
-        datosServicio.comida = comida;
-        datosServicio.arreglo = arreglo;
-
-        localStorage.setItem('datosServicio',JSON.stringify('datosServicio'));
-
+        localStorage.setItem('datosServicio', JSON.stringify(datosServicio));
+        
     });
+   
+
 });
-
-
-

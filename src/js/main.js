@@ -43,6 +43,10 @@ $(function() {
         window.location.href='evento.html';
     });
 
+    // evento
+
+    
+
 
     // Menu.html
     $('.contador-incrementar').click(function() {
