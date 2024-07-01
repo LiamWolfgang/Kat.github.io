@@ -1,3 +1,6 @@
+
+
+
 $(function() {
     // eliminar datosServicio si se encuentra en la pagina de servicios
     if (window.location.pathname.endsWith('servicios.html')) {
@@ -23,25 +26,29 @@ $(function() {
 
     
 
-    // servicios.html
-    let datosServicio={};
-
-    $('#encabezado__btn1').click(function() {
-        datosServicio.evento = 'Boda';
-        localStorage.setItem('datosServicio', JSON.stringify(datosServicio));
-        window.location.href='evento.html';
-    });
-    $('#encabezado__btn2').click(function() {
-        datosServicio.evento = 'Cumpleaños';
-        localStorage.setItem('datosServicio', JSON.stringify(datosServicio));
-        window.location.href='evento.html';
-
-    });
-    $('#encabezado__btn3').click(function() {
-        datosServicio.evento = 'Corporativo';
-        localStorage.setItem('datosServicio', JSON.stringify(datosServicio));
-        window.location.href='evento.html';
-    });
+        let datosServicio = {};
+    
+        $('#encabezado__btn1').click(function() {
+            datosServicio.evento = 'Boda';
+            localStorage.setItem('datosServicio', JSON.stringify(datosServicio));
+            console.log('Datos guardados:', datosServicio); // Mensaje de depuración
+            window.location.href = 'evento.html';
+        });
+    
+        $('#encabezado__btn2').click(function() {
+            datosServicio.evento = 'Cumpleaños';
+            localStorage.setItem('datosServicio', JSON.stringify(datosServicio));
+            console.log('Datos guardados:', datosServicio); // Mensaje de depuración
+            window.location.href = 'evento.html';
+        });
+    
+        $('#encabezado__btn3').click(function() {
+            datosServicio.evento = 'Corporativo';
+            localStorage.setItem('datosServicio', JSON.stringify(datosServicio));
+            console.log('Datos guardados:', datosServicio); // Mensaje de depuración
+            window.location.href = 'evento.html';
+        });
+    
 
     // evento
 
@@ -49,6 +56,30 @@ $(function() {
 
 
     // Menu.html
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     $('.contador-incrementar').click(function() {
     let input = $('.contador-input');
     let currentValue = parseInt(input.val(), 10);
