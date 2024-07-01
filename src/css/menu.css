@@ -48,7 +48,7 @@
 .section5__card {
    background-color: var(--colorTercero);
    display: flex;
-   width: 75vw;
+   width: 25rem;
    flex-direction: column;
    height: 36rem;
    background-color: var(--colorSegundo);
@@ -184,7 +184,25 @@
     transform: translateY(-0.3rem);
 }
 
-/* Estilos adicionales para posicionar y estilizar tus botones/flechas */
+.section-5__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-top: 7rem;
+    background-color: var(--colorPrimero);
+}
+.box-btn{
+    color: var(--colorPrimero);
+    font-weight: 800;
+    border:none;
+    background-color: var(--colorSeptimo);
+    border-radius:0.8rem;
+    font-family: var(--fontPrimera);
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0.5rem 1rem;
+}
 
 
 

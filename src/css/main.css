@@ -1,6 +1,6 @@
 @import url('settings.css');
 .section-1, .section-2,.section-4{
-    min-height: calc(100vh - var(--headerHeight));
+    min-height: 100vh;
     overflow: hidden;
 }
 .section-3{
@@ -14,7 +14,7 @@
 .section-1__carousel {
     position: relative;
     width: 100%;
-    height: calc(55vh - var(--headerHeight));
+    height: 42vh;
     overflow: hidden;
 }
 .section-1__carousel img {
@@ -89,11 +89,11 @@
 .section-2__slider {
     display: flex;
     overflow: hidden;
-    height: calc(50vh - var(--headerHeight));
+    height: 50vh;
 }
 .slider-slide {
     flex: 1;
-    transition: flex 0.5s;
+    transition: flex 0.8s;
 }
 .slider-slide:hover {
     flex: 2;

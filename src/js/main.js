@@ -57,48 +57,32 @@ $(function() {
 
     // Menu.html
     
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    $('.contador-incrementar').click(function() {
-    let input = $('.contador-input');
-    let currentValue = parseInt(input.val(), 10);
-    if (isNaN(currentValue)) {
-        currentValue = 1; 
-    }
-    input.val(currentValue + 1);
+    $('.box-btn').click(function(){
+        window.location.href = 'carrito.html';
     });
 
-    $('.contador-decrementar').click(function() {
-    let input = $('.contador-input');
-    let currentValue = parseInt(input.val(), 10);
-    if (isNaN(currentValue)) {
-        currentValue = 1;
-    }
-    if (currentValue > 1) { 
-        input.val(currentValue - 1);
-    }
+    // carrito.html
+    $('.pago-btn').click(function(){
+        window.location.href = 'envio.html';
     });
+
+
+
+    // evento.html
+    $('#envioForm-submit').click(function(){
+        localStorage.clear();
+        window.location.href = 'index.html';
+        alert('Datos enviados correctamente, en breve nos pondremos en contacto contigo.');
+        
+    });
+    
+
+
+
+
+
+
+
 
 
 });

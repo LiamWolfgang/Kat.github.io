@@ -20,3 +20,150 @@
 body{
     overflow-x: hidden;
 }
+
+
+
+@media screen and (min-width: 768px){
+    .section-1__carousel {
+        height: 70vh;
+        filter: brightness(0.6);
+    }
+    .section-2__slider {
+        height: 70vh;
+        filter: brightness(0.8);
+    }
+
+    .section-1__text-h2,
+    .section-2__text-h2,
+    .section-4__text-h2 {
+        font-size: 2em;
+
+    }
+    .section-1__text-p,
+    .section-2__text-p,
+    .section-4__text-p {
+        font-size: 1.2em;
+    }
+    .section-3{
+        flex-direction: row;
+        align-items: start;
+        height: auto;
+    }
+    .section-3__card {
+        width: 25rem;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    .section-4__boxImage{
+        width: 100%;
+        height: 70vh;   
+    }
+
+    /* servicios.html */
+    h1{
+        font-family: var(--fontPrimera);
+        color: var(--colorSexto);
+        font-size:3em;
+        text-align: center;
+        width: 100vw;
+    }
+    .SectionServicios{
+        margin-top: 1rem;
+        height: auto;
+        gap: 2rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .SectionServicios .card {
+        width: 30rem;
+        filter: brightness(0.9);
+    }
+
+    /* Menu.html */
+    .section1__card,
+    .section2__card,
+    .section3__card,
+    .section3__card,
+    .section3__card,
+    .section4__card,
+    .section5__card {
+    width: 25rem;
+    }
+    .listaMenu{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    
+}
+@media screen and (min-width:1024px) {
+     /* menu */
+
+     #burger, .nav__boxMenu{
+        display: none;
+    }
+    .nav_grande{
+        display: block;
+    }
+    .nav_grande>ul{
+        display: flex;
+        width: 60rem;
+    }
+    .nav_grande>ul>li{
+        list-style: none;
+        flex-grow: 1;
+     
+        
+    }
+    .nav_grande>ul>li>a{
+        text-decoration: none;
+        font-family: var(--fontPrimera);
+        color: var(--colorSegundo);
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+    .nav_grande>ul>li>a {
+        text-decoration: none;
+        font-family: var(--fontPrimera);
+        color: var(--colorSegundo);
+        font-size: 1.2em;
+        font-weight: 800;
+        position: relative; 
+        padding-bottom: 5px; 
+    }
+    
+    .nav_grande>ul>li>a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px; 
+        background-color: var(--colorSegundo); 
+        transition: width 0.3s ease; 
+    }
+    
+    .nav_grande>ul>li>a:hover::after {
+        width: 100%; 
+    }
+
+    /* contacto */
+    .header__social-banner {
+        flex-direction: row;
+    }
+    
+    .social-icons {
+        gap: 5rem;
+    }
+    
+    .visit-us{
+        width: 30rem;
+    }
+    .visit-us a {
+        font-size: 1.5em;
+    }
+    
+
+}

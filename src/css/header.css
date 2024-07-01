@@ -1,5 +1,7 @@
 @import url('settings.css');
-
+.nav_grande{
+    display: none;
+}
 .header__bann{
     background-color: var(--colorPrimero);
     display: flex;
@@ -7,6 +9,7 @@
     justify-content: start;
     height: 3rem;
     overflow-x: hidden;
+
 }
 .bann__topAdd{
     display: inline-flex;
@@ -33,6 +36,9 @@
     align-items: center;
     position: relative;
     background-color: var(--colorSeptimo); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     
 }
 

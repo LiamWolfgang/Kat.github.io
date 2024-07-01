@@ -1,0 +1,48 @@
+/* Estilos para el banner de redes sociales */
+
+.header__social-banner {
+    display: flex;
+    height: 10rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--colorSeptimo);
+    padding: 10px 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: var(--colorSegundo);
+    font-size: 2rem;
+}
+
+.visit-us{
+    width: 100%;
+}
+.visit-us a {
+    text-decoration: none;
+    color: var(--colorPrimero);
+    font-size: 1.2em;
+    text-align: justify;
+    font-weight: bold;
+    cursor:inherit;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58vh;
+}
+.map iframe{
+    width: 100%;
+    height: 90%;
+    
+}
+
+

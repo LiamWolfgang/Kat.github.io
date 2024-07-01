@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
    
-    let datosServicio = JSON.parse(localStorage.getItem('datosServicios'));
-    localStorage.clear();
+
 
     let productos = [];
 
@@ -19,11 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-
-
-
     function asignarEventosCarrito() {
-        let btnAgregar = document.querySelectorAll('.añadir-btn'); // Seleccionar todos los botones de añadir al carrito
+        let btnAgregar = document.querySelectorAll('.añadir-btn'); 
         btnAgregar.forEach(btn => {
             btn.addEventListener('click', function() {
                 let precioElemento = this.closest('.card__añadir').querySelector('.precioCard');
@@ -38,9 +34,5 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     asignarEventosCarrito();
-
-
-    
-
     
 });
