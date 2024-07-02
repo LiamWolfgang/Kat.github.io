@@ -3,7 +3,7 @@ let productos = JSON.parse(localStorage.getItem('productos')) || [];
 
 // Función para cotizar
 function cotizar() {
-    let cestaDatosServicio = document.querySelector('.cesta__datosServicio');
+    
     let servicio = document.querySelector('#cesta-servicio');
     let lugar = document.querySelector('#cesta-lugar');
     let fecha = document.querySelector('#cesta-fecha');
@@ -33,7 +33,7 @@ function cotizar() {
         console.error('Productos no es un array o está vacío.');
     }
 
-    Total = Total.toFixed(2); 
+    Total = (parseInt(datosServicio.arreglo)+Total).toFixed(2); 
     btnTotal.textContent = `Total: €${Total}`; 
 }
 

@@ -21,6 +21,28 @@ body{
     overflow-x: hidden;
 }
 
+    ::-webkit-scrollbar {
+        width: 1rem;
+        height: 1rem;
+        
+     }
+
+    ::-webkit-scrollbar-track {
+        background: var(--colorSegundo);
+        
+    }
+
+    ::-webkit-scrollbar-thumb {
+        
+        background: var(--colorTercero);
+        border-radius: 5px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+         background: var(--colorCuarto);
+    }
+
+
+        
 
 
 @media screen and (min-width: 768px){
@@ -46,11 +68,13 @@ body{
     }
     .section-3{
         flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
         align-items: start;
         height: auto;
     }
     .section-3__card {
-        width: 25rem;
+        width: 20rem;
         border-radius: 25px;
         overflow: hidden;
     }
@@ -76,8 +100,37 @@ body{
         align-items: start;
     }
     .SectionServicios .card {
-        width: 30rem;
+        width: 20rem;
+        margin-top:4rem;
         filter: brightness(0.9);
+    }
+
+    /* Menu.html */
+    .section1__card,
+    .section2__card,
+    .section3__card,
+    .section3__card,
+    .section3__card,
+    .section4__card,
+    .section5__card {
+    width: 20rem;
+    }
+    .listaMenu{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* cesta */
+    .cesta__detalles h2{
+        font-size:1.5rem;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    /* inicio */
+    .section-3{
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     /* Menu.html */
@@ -90,16 +143,7 @@ body{
     .section5__card {
     width: 25rem;
     }
-    .listaMenu{
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    
-}
-@media screen and (min-width:1024px) {
-     /* menu */
+     /* menuNav */
 
      #burger, .nav__boxMenu{
         display: none;
