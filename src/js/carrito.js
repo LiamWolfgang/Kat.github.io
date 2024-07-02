@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let precioUnitario = parseFloat(precioElemento.getAttribute('data-precio-unitario'));
                 let subtotal = cantidad * precioUnitario;
     
-
+                alert(`Producto añadido al carrito. Subtotal: €${subtotal.toFixed(2)}`);
                 carrito(subtotal); 
             });
         });

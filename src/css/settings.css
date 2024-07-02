@@ -84,7 +84,7 @@ body{
     }
 
     /* servicios.html */
-    h1{
+    .SectionServicios h1{
         font-family: var(--fontPrimera);
         color: var(--colorSexto);
         font-size:3em;
@@ -92,17 +92,18 @@ body{
         width: 100vw;
     }
     .SectionServicios{
-        margin-top: 1rem;
-        height: auto;
-        gap: 2rem;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: start;
+        height: 60rem;
+        align-content: space-evenly;
     }
     .SectionServicios .card {
         width: 20rem;
-        margin-top:4rem;
         filter: brightness(0.9);
+    }
+    .card__panel{
+        height: 4rem;
+        justify-content: center;
     }
 
     /* Menu.html */
@@ -124,6 +125,15 @@ body{
     .cesta__detalles h2{
         font-size:1.5rem;
     }
+    /* menu */
+    .nav__boxMenu>ul>li{
+        flex-basis: 10rem;
+        font-size: 2em;
+    }
+    .burger,.burger::before, .burger::after{
+        height:5px;
+        width: 50px;
+    }
     
 }
 @media screen and (min-width:1024px) {
@@ -131,6 +141,28 @@ body{
     .section-3{
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+    .section-3__card {
+        width: 28rem;
+    }
+    .card__panel{
+        height: 5rem;
+        justify-content: center;
+    }
+    .card__panel h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    /* servicios */
+    .SectionServicios{
+        height: 100%;
+    }
+    .SectionServicios h1{
+        margin-top: 2rem ;
+    }
+    .SectionServicios .card {
+        margin-top: 2rem;
+        width: 30rem;
     }
 
     /* Menu.html */

@@ -7,7 +7,7 @@
     justify-content: space-around;
     align-items: center;
 }
-h1{
+.SectionServicios h1{
     font-family: var(--fontPrimera);
     color: var(--colorSexto);
     font-size: 2.5em;
